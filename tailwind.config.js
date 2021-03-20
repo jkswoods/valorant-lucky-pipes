@@ -5,7 +5,15 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    fontFamily: {
+      'display': ['Valorant'],
+    },
+    extend: {
+      colors: {
+        'valorant-red': '#ff4655',
+        'valorant-white': '#ece8e1',
+      },
+    },
   },
   variants: {
     extend: {},
